@@ -1,0 +1,46 @@
+# Created by https://www.toptal.com/developers/gitignore/api/docker,%20macos
+
+### Mac OS X ###
+.DS_Store
+.AppleDouble
+.Lock
+.netrc
+.parcel-cache
+.project
+.svn/
+
+### Python (if applicable) ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+### Node.js (if applicable) ###
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+### Common patterns ###
+*.log
+*.pot
+*.swp
+*~
+.localhistory/
+tags
+autosave.*
+syncinfo.txt
+Thumbs.db
+
+# Ignore built documentation files
+docs/build/
+
+# Ignore IDEs (if applicable)
+.idea/
+.vscode/
+.project
+.crc/
